@@ -12,3 +12,4 @@ tempCodeRunnerFile.c
 
 # その他、バイナリファイルなど
 *.o
+.DS_Store
