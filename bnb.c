@@ -25,11 +25,7 @@ typedef double X_State[NUM_VARS];//変数ｘの状態
      X_State={1,0,-1,-1}->xiが全て固定->解の候補の一つ
 */
 
-typedef struct {
-    double z_value;//ｚの最適正値
-    int feasible_judge;//制約を満たすかの判定
-    double x_sol[NUM_VARS];
-} LPSolution;
+
 
 // 現在見つかっている最良の整数解の目的関数値 Z
 double best_z = -DBL_MAX; //おそらくintでとると誤差でバグる。
