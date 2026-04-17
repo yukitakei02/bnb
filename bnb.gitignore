@@ -1,0 +1,14 @@
+# 実行ファイル（Mac/Linux）
+main
+a.out
+*.exe
+
+# デバッグ用フォルダ（Mac）
+*.dSYM/
+
+# VS Code の設定や一時ファイル
+.vscode/
+tempCodeRunnerFile.c
+
+# その他、バイナリファイルなど
+*.o
